@@ -38,14 +38,16 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<dc:description id="description">An eccentric scientist investigates a series of shocking murders that terrorize London.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Murders in Praed Street&lt;/i&gt; is the fourth of the 72 detective novels written by Cecil Street under the pen name &lt;a href="https://standardebooks.org/ebooks/john-rhode"&gt;John Rhode&lt;/a&gt; that feature his character Lancelot Priestley, an eccentric scientist and mathematician. Part I of the novel introduces the neighborhood of Praed Street, its shopkeepers and their families. Among these characters are the first victims of a series of shocking murders that terrorize London and baffle the police. In Part II, Scotland Yard seeks the help of Dr. Priestley, who is eager for “some enticing problem, mathematical or human.” To confirm his theory of the crimes, Dr. Priestley travels incognito to the Isle of Purbeck, where he learns that he is among the intended victims in a mad scheme of revenge.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/72926</dc:source>
 		<dc:source>https://books.google.com/books?id=iVMuAAAAIAAJ</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">The cover is based on the image of the original cover by Philip Simmonds found at https://pictures.abebooks.com/inventory/31427527492_2.jpg</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Murders_in_Praed_Street</meta>
@@ -55,6 +57,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Cecil_Street</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n85369789</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Philip Simmonds</dc:contributor>
 		<meta property="file-as" refines="#artist">Simmonds, Philip</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2025033298</meta>
